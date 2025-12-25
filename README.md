@@ -2,24 +2,7 @@
 
 A high-performance, low-latency market data feed handler. Includes a TCP exchange simulator, binary protocol client, lock-free symbol cache, and real-time terminal visualization.
 
-## How to Run
 
-```bash
-./scripts/build.sh
-./scripts/run_server.sh
-./scripts/run_client.sh
-
-Tests
-bash
-Copy code
-./build/tests/test_parser
-./build/tests/test_memory_pool
-./build/tests/test_symbol_cache
-Benchmarks
-bash
-Copy code
-./build/benchmarks/bench_parser_throughput
-./build/benchmarks/bench_cache_latency
 
 ## Highlights
 
